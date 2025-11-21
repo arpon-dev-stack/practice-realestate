@@ -1,16 +1,22 @@
-# React + Vite
+Up to now i don't find why life why not everyone same but now i belive life is for learning.
+Until now i think to myself as web dev wizard but there is some misunderstanding of it.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+my mistake:
 
-Currently, two official plugins are available:
+in tailwindcss for responsiveness don't do that for every one just use container it have all responsive things.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+don't forget object-fit:
 
-## React Compiler
+fill - This is default. Does not preserve the aspect ratio. The image is resized to fill the container (the image will be stretched or squeezed to fit).
+cover - Preserves the aspect ratio, and the image fills the container. Cuts overflowing content if needed.
+contain - Preserves the aspect ratio, and fits the image inside the container, without cutting - leaves empty space if needed.
+none - The image is not resized.
+scale-down - the image is scaled down to the smallest version of none or contain.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+header is intro of your website and commonly it have logo and nav bar and nav bar contain navigational link, for better seo you have to use section instead of div
 
-## Expanding the ESLint configuration
+when you set a child element position: fixed; then it no longer child of it's parent it's child of viewport.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+you have to consider minimum 320px for responsiveness.
+
+for navigation to specific element by ancor you have to set id and ancor href value id.
